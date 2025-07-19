@@ -24,7 +24,7 @@ website:
   title: "Literary Jukebox: Design Thinking from Short Fiction"
   site-url: "https://literary-jukebox.netlify.app"
   repo-url: https://github.com/arvindvenkatadri/literary-jukebox
-  description: This is the teaching website of Arvind V., External Faculty at Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India.
+  description: "This is the teaching website of Arvind V., External Faculty at Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India."
   favicon: "content/materials/icon-park-twotone--concept-sharing.svg"
   google-analytics: "" 
   reader-mode: true
@@ -47,6 +47,7 @@ website:
 
   sidebar:
     style: "docked"
+    background: secondary
     alignment: left
     collapse-level: 2
     search: true
@@ -90,7 +91,9 @@ website:
     
 format:
   html:
-    theme: cosmo
+    smooth-scroll: true
+    fontsize: "medium"
+    theme: sandstone
     link-external-icon: true
     link-external-newwindow: true
     citations-hover: true
@@ -99,6 +102,8 @@ format:
     back-to-top-navigation: true
     bread-crumbs: true
     format-links: true
+    reference-location: document
+    cap-location: bottom
     toc: true
     fig-align: center
     fig-cap-location: bottom
