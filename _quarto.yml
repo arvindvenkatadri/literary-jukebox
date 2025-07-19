@@ -1,0 +1,144 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 4000
+    browser: true
+
+page-layout: full
+execute:
+  freeze: auto
+  cache: true
+  echo: true
+  warning: true
+  message: false
+  error: true # errors will not stop rendering!
+
+website:
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+  open-graph: true
+  search: true
+  twitter-card: true
+  title: "Literary Jukebox: Design Thinking from Short Fiction"
+  site-url: "https://literary-jukebox.netlify.app"
+  repo-url: https://github.com/arvindvenkatadri/literary-jukebox
+  description: This is the teaching website of Arvind V., External Faculty at Srishti Manipal Institute of Art, Design, and Technology, Bangalore, India.
+  favicon: "content/materials/icon-park-twotone--concept-sharing.svg"
+  google-analytics: "" 
+  reader-mode: true
+  
+  navbar:
+    background: primary
+    pinned: false
+    collapse: true
+    collapse-below: lg
+      
+    right:
+      - icon: github
+        href: https://github.com/arvindvenkatadri/literary-jukebox
+      - icon: twitter
+        href: https://twitter.com/arvind_v
+      - icon: linkedin
+        href: https://www.linkedin.com/in/arvindvenkatadri
+      - icon: envelope
+        href: mailto:arvind.venkatadri@gmail.com
+
+  sidebar:
+    style: "docked"
+    alignment: left
+    collapse-level: 2
+    search: true
+    logo: "content/materials/images/1book25.jpg"
+    contents:
+      - section: "Literary Jukebox: In Short, the World"
+        href: content/courses/ISTW/listing.qmd
+        contents:
+          - content/courses/ISTW/Modules/10-Italy-DinoBuzatti/index.qmd
+          - content/courses/ISTW/Modules/20-France-GuydeMaupassant/index.qmd
+          - content/courses/ISTW/Modules/30-Japan-HisayeYamamoto/index.qmd
+          - content/courses/ISTW/Modules/40-Peru-VGCalderon/index.qmd
+          - content/courses/ISTW/Modules/50-Russia-MaximGorky/index.qmd
+          - content/courses/ISTW/Modules/60-Egypt-AlifaRifaat/index.qmd
+          - content/courses/ISTW/Modules/70-Brazil-ClariceLispector/index.qmd
+          - content/courses/ISTW/Modules/80-England-VSPritchett/index.qmd
+          - content/courses/ISTW/Modules/90-Russia-IvanBunin/index.qmd
+          - content/courses/ISTW/Modules/100-Czechia-MilanKundera/index.qmd
+          - content/courses/ISTW/Modules/120-Sweden-LarsGustaffson/index.qmd
+          - content/courses/ISTW/Modules/140-Canada-JohnCheever/index.qmd
+          - content/courses/ISTW/Modules/150-Ireland-WilliamTrevor/index.qmd
+          - content/courses/ISTW/Modules/160-USA-RaymondCarver/index.qmd            
+          - content/courses/ISTW/Modules/170-Italy-PrimoLevi/index.qmd             
+          - content/courses/ISTW/Modules/180-India-RuthPrawerJhabvala/index.qmd           
+          - content/courses/ISTW/Modules/190-USA-CarsonMcCullers/index.qmd             
+          - content/courses/ISTW/Modules/200-Zimbabwe-PetinaGappah/index.qmd
+          - content/courses/ISTW/Modules/220-India-BharatiMukherjee/index.qmd
+          - content/courses/ISTW/Modules/230-USA-Lucia-Berlin/index.qmd
+          - content/courses/ISTW/Modules/240-USA-GracePaley/index.qmd
+          - content/courses/ISTW/Modules/250-England-AngelaCarter/index.qmd
+          - content/courses/ISTW/Modules/260-USA-KurtVonnegut/index.qmd
+          - content/courses/ISTW/Modules/270-Spain-MerceRodoreda/index.qmd
+          - content/courses/ISTW/Modules/280-Israel-RuthCalderon/index.qmd
+          - content/courses/ISTW/Modules/290-Israel-EtgarKeret/index.qmd
+        
+  page-footer:
+    center: "Website made with ❤️ and [Quarto](https://quarto.org/), by Arvind V."
+    right:  Hosted by Netlify [{{< iconify simple-icons netlify >}}](https://www.netlify.com).
+    left:  "License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
+    background: light
+    
+format:
+  html:
+    theme: cosmo
+    link-external-icon: true
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    page-navigation: true
+    back-to-top-navigation: true
+    bread-crumbs: true
+    format-links: true
+    toc: true
+    fig-align: center
+    fig-cap-location: bottom
+    fig-dpi: 300
+
+    filters:
+      - d2
+      - tabby
+      - webr
+      - quarto
+      - line-highlight
+      - shinylive
+      - gadenbuie/tachyons # Causes strange code wrapping with decimals!
+    d2:
+      format: svg
+      embed_mode: raw
+    webr:
+      channel-type: "automatic"
+    mermaid:
+      theme: forest
+
+    grid:
+      sidebar-width: 250px
+      body-width: 1000px
+      margin-width: 250px
+      gutter-width: 1.5rem
+
+editor: 
+  source:
+    markdown: 
+      wrap: 72
+lightbox: # Based on internal Quarto feature
+  match: auto
+  effect: zoom
+  desc-position: right
+  loop: false
+
+knitr:
+  opts_chunk: 
+    tidy: 'styler'
+    
+
+
