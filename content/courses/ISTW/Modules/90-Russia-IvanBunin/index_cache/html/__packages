@@ -15,6 +15,7 @@ tmap
 leaflet
 rnaturalearth
 rnaturalearthdata
+rnaturalearthhires
 htmlwidgets
 widgetframe
-rnaturalearthhires
+osmdata

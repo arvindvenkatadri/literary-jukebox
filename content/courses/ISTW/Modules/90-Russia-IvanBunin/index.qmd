@@ -60,25 +60,16 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 library(rnaturalearthhires)
 library(widgetframe)
+library(osmdata)
 
 tmap_mode("view")
-data("rivers")
-data("World")
-data("metro")
-tmap_options(check.and.fix = TRUE)
+data("World_rivers", package = "tmap")
+data("World",package = "tmap")
+data("metro",package = "tmap")
+#tm_check_fix()
 
-bbox <- matrix(
-  c(25, 35, 55, 60),
-  byrow = FALSE,
-  nrow = 2,
-  ncol = 2,
-  dimnames = list(c('x', 'y'), c('min', 'max'))
-)
-
-# bbox <- osmplotr::get_bbox(latlon = c(25, 35, 55, 60))
-
-russian_rivers <- rivers %>%
-  filter(name %in% c("Volga", "Don", "Dnieper"))
+russian_rivers <- World_rivers %>%
+  filter(name %in% c("Volga", "Don", "Dnipro"))
 countries <- ne_countries(scale = "large", returnclass = "sf")
 bunin_world <-
   countries %>% filter(
@@ -133,8 +124,8 @@ bunin_cities <- bunin_cities %>%
 
 
 ```{r,echo=FALSE}
-leaflet(data = bunin_world) %>% 
-  leaflet(width = "200%") %>%
+leaflet(data = bunin_world,height = "50%",width = "50%",) %>% 
+  leaflet() %>%
   #addProviderTiles(providers$OpenStreetMap, group = "Open Street Map") %>% 
   addProviderTiles(providers$Esri.NatGeoWorldMap, group = "Nat Geo World Map") %>% # ESRI Basemap
   addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") %>% 
@@ -172,7 +163,8 @@ leaflet(data = bunin_world) %>%
   addScaleBar(
     position = "bottomright",
     options = scaleBarOptions(imperial = FALSE)
-    ) 
+    ) %>% 
+    fitBounds(lat1 = 41, lat2 = 51, lng1 = 35, lng2 = 45)
 
 # %>% 
  #  addTitle("The World from Bunin`s Sunstroke", color = "black", fontSize = "20px",
