@@ -19,8 +19,8 @@ library(blogdown)
 #| fig.cap: "Primo Levi"
 #| fig-alt: "Primo Levi"
 #| fig-align: "center"
-#| out.width: "50%"
-#| out.height: "50%"
+#| out.width: "30%"
+#| out.height: "30%"
 
 knitr::include_graphics("primo-levi.jpg")
 ```
@@ -68,7 +68,12 @@ Artiste: Al Stewart
 
 Alastair("Al") Ian Stewart (born 5 September 1945) is a Scottish singer-songwriter and folk-rock musician who rose to prominence as part of the British folk revival in the 1960s and 1970s. He developed a unique style of combining folk-rock songs with delicately woven tales of characters and events from history.
 
-{{< youtube klsTowdcEsk >}}
+::: {#fig-sorcery}
+<center>
+{{< video https://youtu.be/klsTowdcEsk width="560" height="400" align="center" title="" >}}
+</center>
+Al Stewart performing "Flying Sorcery"
+:::
 
 "Flying Sorcery"
 Al Stewart

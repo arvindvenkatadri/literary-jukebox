@@ -14,7 +14,18 @@ library(blogdown)
 
 ## Ireland: William Trevor
 
-![William Trevor](trevor.png)
+```{r}
+#| echo: false
+#| out.height: "40%"
+#| out.width: "40%"
+#| fig.align: 'center'
+#| fig.cap: "William Trevor (1928-2016)"
+#| fig.alt: "William Trevor, an Irish Writer"
+
+
+knitr::include_graphics("trevor.png")
+```
+
 
 
 
@@ -57,7 +68,13 @@ Billy Currington's Country hit from 2003, *Walk a Little Straighter*.
 
 >"Walk a Little Straighter" was written by Billy Currington, making it a very personal composition. This song is a highly autobiographical track, inspired by Currington's own childhood experiences. The song narrates the story of a young boy addressing his father's alcohol addiction. "Walk a Little Straighter," tells about the pain and hope a child feels towards his father who is struggling with alcoholism. Upon its release in 2003, "Walk a Little Straighter" became a significant success, reaching No. 8 on the US Billboard Hot Country Songs chart. It marked the beginning of Billy Currington's successful career in country music.
 
-{{< youtube U1no7Or9BeI >}}
+::: {#fig-straighter}
+<center>
+{{< video https://youtu.be/U1no7Or9BeI width="560" height="400" align="center" title="Walk a Little Straighter" >}}
+</center>
+Billy Currington's "Walk a Little Straighter" (2003)
+:::
+
 
 
 Walk A Little Straighter

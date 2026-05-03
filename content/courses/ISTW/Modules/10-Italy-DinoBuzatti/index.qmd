@@ -14,9 +14,18 @@ library(emoji)
 library(embedr) # Embed multimedia in HTML files
 ```
 
-<center>
-![](img01.jpg)
-</center>
+```{r}
+#| echo: false
+#| out.height: "40%"
+#| out.width: "40%"
+#| fig.align: 'center'
+#| fig.cap: "Dino Buzzati (1906-1972)"
+#| fig.alt: "Dino Buzzati (1906-1972)"
+
+knitr::include_graphics("img01.jpg")
+```
+
+
 
 > Dino was a curious man, fascinated by news. He looked to the future
 > with passion and interest, and although it is often believed the
@@ -53,10 +62,18 @@ Waheeda Rehman, the stunning "**Falling Girl**" in
 <u>["Guide"](https://www.imdb.com/title/tt0059246/)</u>
 `r emoji::emoji("red_heart")` !! Waah! Dino Buzzati should have watched this!! He would have approved!!
 
-{{< youtube _ji8jZjk56c >}}
+::: {#fig-discussion}
+<center>
+{{< video https://youtu.be/_ji8jZjk56c width="560" height="400" align="center" title="Aaj Phir Jeene ki.." >}}
+</center>
+Aaj Phir Jeene ki..
+:::
+
 
 <br>
 Lyrics and Translation: <u><https://www.filmyquotes.com/songs/1245></u>
+
+::: {style="text-align: center; font-size: 0.75em;"}
 
 | Hindi Lyrics                                  | English Translation                             |
 |-----------------------------------|-------------------------------------|
@@ -85,6 +102,9 @@ Lyrics and Translation: <u><https://www.filmyquotes.com/songs/1245></u>
 | -----------------                             | ---------------------                           |
 | Aaj phir jeene ki tamanna hai(2)              | Today, I have a desire to live again            |
 | Aaj phir marne ka irada hai(2)                | Today, I have an intention to die again!        |
+
+:::
+
 
 ## Writing Prompts
 

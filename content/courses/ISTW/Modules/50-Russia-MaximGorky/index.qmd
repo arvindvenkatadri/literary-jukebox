@@ -14,7 +14,7 @@ library(embedr) # Embed multimedia in HTML files
 ## Maxim Gorky
 
 
-```{r, echo=FALSE, out.height="50%", out.width="50%",fig.align='center'}
+```{r, echo=FALSE, out.height="30%", out.width="30%",fig.align='center'}
 knitr::include_graphics("Maxim_Gorky.jpg")
 ```
 
@@ -132,6 +132,8 @@ We will read Gorky's story, **The Clown**.
 - Starring: Raj Kapoor, Simi Garewal, Manoj Kumar, Rishi Kapoor, Dharmendra, Dara Singh, Padmini, Rajendra Kumar.\
 - Year: 1970\
 
+::: {style="text-align: center; font-size: 0.75em;"}
+
 | Hindi Lyrics                               | English Translation                           |
 |-----------------------------------|-------------------------------------|
 | Kehta hai joker saara zamaana              | Says the Joker, that the whole World          |
@@ -155,6 +157,7 @@ We will read Gorky's story, **The Clown**.
 | kehta hai joker ...                        | Says the Joker...                             |
 | chasma utaro ...                           | Remove your specs,....                        |
 | kehta hai joker ...                        | Says the Joker...                             |
+:::
 
 [^1]: Reference to the *"circus life, we all need a clown"* in Steve Perry/Journey's classic rock song,
     <u>[Faithfully](https://youtu.be/OMD8hBsA-RI)</u>.
@@ -178,4 +181,3 @@ We will read Gorky's story, **The Clown**.
     
 {{< pdf "../../../../materials/pdfs/PeterCarey-TheLastDaysOfTheFamousMime.pdf" >}}
 
-[](../../materials/pdfs/PeterCarey-TheLastDaysOfTheFamousMime.pdf)

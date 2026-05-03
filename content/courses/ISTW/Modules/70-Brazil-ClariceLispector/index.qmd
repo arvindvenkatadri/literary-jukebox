@@ -43,6 +43,8 @@ We will read her story, "Beauty and the Beast, or, The Wound too Great", p. 291 
 2.  Suryakant Tripathi "Nirala". 1923. *Bhikshuk*.
     <u><http://kavitakosh.org></u>
 
+::: {style="text-align: center; font-size: 0.75em;"}
+
 वह आता--
 
 दो टूक कलेजे को करता, पछताता पथ पर आता।
@@ -81,6 +83,8 @@ We will read her story, "Beauty and the Beast, or, The Wound too Great", p. 291 
 
 [- Suryakant Tripathi "Nirala"]{style="float:right"}
 
+:::
+
 <br>
 
 ## Song for the Story
@@ -88,13 +92,24 @@ We will read her story, "Beauty and the Beast, or, The Wound too Great", p. 291 
 The roles are the reversed in this song are they? But that is possibly
 what we saw in the story...who *is* the beggar?
 
-{{< youtube At9FypGZ44M >}}
+::: {#fig-phil}
+<center>
+{{< video https://youtu.be/At9FypGZ44M width="560" height="400" align="center" title="Another Day in Paradise" >}}
+</center>
+Phil Collins - "Another Day in Paradise" (1989)
+:::
 
 <br>
 
 Another not un-related song, is this one by [England Dan Seals and John Ford Coley](https://open.spotify.com/artist/01W8kYNqFHyKicPfR0pLwO), especially if you think the lady had a boyfriend earlier.
 
-{{< youtube f1E-Z6_BCiE >}}
+::: {#fig-englanddan}
+<center>
+{{< video https://youtu.be/f1E-Z6_BCiE width="560" height="400" align="center" title="Lady" >}}
+</center>
+England Dan Seals and John Ford Coley - "Lady" (1978)
+:::
+
 
 ## Writing Prompts
 

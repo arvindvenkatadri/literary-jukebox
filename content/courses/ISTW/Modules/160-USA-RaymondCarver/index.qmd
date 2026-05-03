@@ -17,8 +17,8 @@ library(blogdown)
 #| echo: FALSE
 #| fig-align: "center"
 #| fig-cap: "Raymond Carver (1938-1988)"
-#| out.width: "50%"
-#| out.height: "50%"
+#| out.width: "30%"
+#| out.height: "30%"
 
 knitr::include_graphics("Raymond_Carver.jpg")
 ```
@@ -55,9 +55,12 @@ We will read Carver's luminous story, **Cathedral**.
 <br>
 4. **Sparsh**, starring Naseeruddin Shah and Shabana Azmi. 
 
-{{< youtube 8yB4IwsnyQ8 >}}
-
-<u><https://www.youtube.com/watch?v=8yB4IwsnyQ8></u>
+::: {#fig-sparsh}
+<center>
+{{< video https://youtu.be/8yB4IwsnyQ8 width="560" height="400" align="center" title="Sparsh" >}}
+</center>
+Sparsh
+:::
 
 > Sparsh (English: Touch) is a 1980 Indian Hindi feature film directed by Sai Paranjpye. It stars Naseeruddin Shah and Shabana Azmi playing the characters of a visually impaired principal and a sighted teacher in a school for the blind, where they fall in love though soon their complexes tag along and they struggle to get past them to reconnect with the "touch" of love. 
 >
@@ -74,7 +77,7 @@ Shorter Summary:
 #| echo: FALSE
 #| fig-align: "center"
 #| fig-cap: "Jacques Lusseyran (1924-1971)"
-#| out.width: "50%"
+#| out.width: "30%"
 #| out.height: "30%"
 
 knitr::include_graphics("images/lusseyran.jpg")
@@ -94,17 +97,25 @@ knitr::include_graphics("images/lusseyran.jpg")
  
 ### Song(s) for the Story !!
 
-1. Mahendra Kapoor from the movie Sambandh(1969):   
+1. Mahendra Kapoor from the movie Sambandh(1969): 
 
-{{< youtube u5uRivqwCZk >}}
+::: {#fig-mahendra}
+<center>
+{{< video https://youtu.be/u5uRivqwCZk width="560" height="400" align="center" title="" >}}
+</center>
+Mahendra Kapoor - Sambandh(1969)
+:::
 
 <br>
 
 2. Deep Purple, **When a Blind Man Cries**
- 
-{{< youtube SSn6Vyp0_Vg >}}
 
- 
+::: {#fig-deeppurple}
+<center>
+{{< video https://youtu.be/SSn6Vyp0_Vg width="560" height="400" align="center" title="" >}}
+</center>
+Deep Purple - When a Blind Man Cries
+:::
 
 ## Writing Prompts
 

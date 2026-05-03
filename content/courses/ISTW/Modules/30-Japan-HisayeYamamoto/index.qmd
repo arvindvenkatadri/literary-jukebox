@@ -17,8 +17,8 @@ library(embedr) # Embed multimedia in HTML files
 
 ```{r}
 #| echo: false
-#| out.height: "50%"
-#| out.width: "50%"
+#| out.height: "40%"
+#| out.width: "40%"
 #| fig.align: 'center'
 #| fig.cap: "Hisaye Yamamoto (1921-2011)"
 #| fig.alt: "A portrait of Hisaye Yamamoto"
@@ -65,7 +65,13 @@ Syllables**.
 
 ## Additional Material
 
-{{< youtube I6MVtSZJhGE >}}
+::: {#fig-summerwind}
+<center>
+{{< video https://youtu.be/I6MVtSZJhGE width="560" height="400" align="center" title="Hot Summer Winds (1991)" >}}
+</center>
+Hot Summer Winds(1991)
+:::
+
 
 ### Notes and References
 
@@ -86,13 +92,20 @@ Lyrics: Rajendra Krishan\
 Composed: Madan Mohan Kohli\
 Movie/Album: Gateway Of India (1957)\
 
-{{< youtube H8qENpk2GuE >}}\
+::: {#fig-gatewayofindia}
+<center>
+{{< video https://youtu.be/H8qENpk2GuE width="560" height="400" align="center" title="Gateway of India(1954)" >}}
+</center>
+Do Ghadi Woh jo Paas aa baithe...
+:::
 
 Here is the audio track alone:
 
 <center>
 `r embedr::embed_audio("DO GHADI WOH - GATEWAY OF INDI.mp3")`
 </center>
+
+::: {style="text-align: center; font-size: 0.75em;"}
 
 | **Hindi (and some Urdu!) lyrics**    | **English Translation**                                    |
 |----------------------------------|--------------------------------------|
@@ -118,6 +131,7 @@ Here is the audio track alone:
 | *Dil yoon hi de diya nahin hoga (2)* | *You would not have parted with your Heart Just Like That* |
 | *Dekhkar kuchh to chot khaa baithe*  | *You Saw Them, and were Wounded*                           |
 | *Do ghadi wo jo paas aa baithe*      | *Two Moments...*                                           |
+:::
 
 ## Writing Prompts
 

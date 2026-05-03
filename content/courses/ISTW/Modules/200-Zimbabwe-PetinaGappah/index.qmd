@@ -65,7 +65,12 @@ About *Allentown*:
 
 > "Allentown" is a song by American singer Billy Joel, which was the lead track on Joel's The Nylon Curtain (1982) album, accompanied by a conceptual music video. Upon its release, and especially in subsequent years, "Allentown" emerged as an anthem of blue-collar America, representing both the aspirations and frustrations of America's working class in the late 20th century.
 
-{{< youtube BHnJp0oyOxs >}}
+::: {#fig-allentown}
+<center>
+{{< video https://youtu.be/BHnJp0oyOxs width="560" height="400" align="center" title="Allentown" >}}
+</center>
+Billy Joel - Allentown
+:::
 
 Allentown by Billy Joel
 

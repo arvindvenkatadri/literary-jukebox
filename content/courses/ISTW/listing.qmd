@@ -1,6 +1,6 @@
 ---
-title: "Literary Jukebox: In Short, the World"
-subtitle: "Design Principles from Short Fiction"
+title: "Literary Jukebox: Art + Design Thinking Principles from Short Fiction"
+subtitle: "In Short, the World"
 date: 2022/Dec/31
 image: preview.jpg
 image-alt: "Photo by Preston A Larimer"
@@ -22,3 +22,46 @@ listing:
 [ --- Francine Prose]{.f6 .ttu .tracked .fs-normal}
 :::
 ::::
+
+## Course Abstract
+
+Several short stories from different parts of the World will be read. Aspects of the stories shall be discussed in class: 
+
+  • The story/sequence,\
+  • The interesting events\
+  • The characters, their voices, identity of the speaker/narrator\
+  • Emotions, impressions, Said and unsaid\
+  • Language construction that seems unique or peculiar turns of phrase; caricature and cliché.\
+  • Cultural, local or historical references and affinities to our own culture;\ 
+    • Large Ideas and Themes that can be used as Design Principles or Hacks
+
+The students will be required to do a piece of Creative Writing on a choice of topics to be announced after reading each story in class. The unit will also include exposure to the use of open-source technological tools such as Calibre (e-Book Library Manager), the HemingwayApp for improved writing and Browser plug-ins to foster the reading habit.
+
+## Learning Objectives as Capabilities
+
+  • Be able to read for understanding\
+  • Develop and defend a point of view\
+  • Explore individual voice and build confidence in ability to communicate via writing, presenting, speaking\
+  • Experience writing in one or more modes\
+  • Ability to use language for communicating about the visual and/or other abstractions\
+  • Being able to Generalize the Design Ideas and Principles mined from the Story
+
+## Learning Objectives as Studio Habits
+None.
+
+## Learning Objectives as Dimensions of Practice
+None.
+
+## Prerequisites
+None, if you discount basic literacy !
+
+## Learning Outcomes
+
+ - Reading, with some regard to the voice of the characters/ writer
+ - Critical Writing/Reviewing/Stating Opinions
+ - Writing using different formats and forms (epistolary, first person, biographical, travel, sensory writing, for example)
+ - Creative Piece of Writing applying the General Design Principles mined from the Story
+
+## Modules
+
+

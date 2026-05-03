@@ -23,8 +23,8 @@ library(embedr) # Embed multimedia in HTML files
 #| fig.cap: "Carson McCullers"
 #| fig-alt: "Carson McCullers"
 #| fig-align: "center"
-#| out.width: "50%"
-#| out.height: "50%"
+#| out.width: "30%"
+#| out.height: "30%"
 
 knitr::include_graphics("CarsonMcCullers.jpeg")
 
@@ -49,7 +49,12 @@ We will read McCullers' astonishing story, ***A Rock. A Tree. A Cloud.***
 
 ### Songs for the Story !!
 
-{{< youtube -Fulz4ytZ54 >}}<br>
+::: {#fig-piya}
+<center>
+{{< video https://youtu.be/-Fulz4ytZ54 width="560" height="400" align="center" title="Toby Keith" >}}
+</center>
+Toby Keith - I Love This Bar
+:::
 
 And sadly, <u>[Renowned country singer Toby Keith dies at 62 after battle with stomach cancer.](https://edition.cnn.com/2024/02/06/entertainment/toby-keith-death/index.html)</u>
 
@@ -120,7 +125,12 @@ I just love it\
 
 And so, maybe this one...
 
-{{< youtube DjCVBPhrH3E >}}<br>
+::: {#fig-wizard}
+<center>
+{{< video https://youtu.be/DjCVBPhrH3E width="560" height="400" align="center" title="Wizard" >}}
+</center>
+Uriah Heep - The Wizard
+:::
 
 "The Wizard"
 Uriah Heep

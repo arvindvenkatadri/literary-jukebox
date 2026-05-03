@@ -13,7 +13,21 @@ library(blogdown)
 
 ## Ivan Bunin
 
-![](bunin.jpg)
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Ivan Bunin"
+#| fig-alt: "Ivan Bunin"
+#| out.width: "40%"
+#| out.height: "40%"
+#| fig.align: "center"
+
+
+knitr::include_graphics("bunin.jpg")
+
+```
+
 
 > IVAN BUNIN, the first Russian writer to win the Nobel Prize (1931),
 > was born in 1870 to an aristocratic family in Vorornezh. After
@@ -33,7 +47,7 @@ library(blogdown)
 
 ### Story
 
-We will read Ivan Bunin's short story,**Sunstroke**.
+We will read Ivan Bunin's short story, **Sunstroke**.
 
 {{< pdf "../../../../materials/pdfs/IvanBunin-Sunstroke.pdf" >}}
 
@@ -340,12 +354,23 @@ bunin_map
 
 A <u>[**torch ballad**](https://en.wikipedia.org/wiki/Torch_song)</u> by Phil Collins!
 
-{{< youtube Cq7Je8uveKE >}}
+::: {#fig-torchballad}
+<center>
+{{< video https://youtu.be/Cq7Je8uveKE width="560" height="400" align="center" title="Take a Look at Me Now" >}}
+</center>
+Take A Look at Me Now, by Phil Collins
+:::
 
 <br>
 And an equally good lament by the lady: Vacation, by the Go-Gos.
 
-{{< youtube s24reWXydp8 >}}
+::: {#fig-torchballad}
+<center>
+{{< video https://youtu.be/s24reWXydp8 width="560" height="400" align="center" title="Vacation" >}}
+</center>
+Vacation, by the Go-Gos
+:::
+
 
 
 ## Writing Prompts

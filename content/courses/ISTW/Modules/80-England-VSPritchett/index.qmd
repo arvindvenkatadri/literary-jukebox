@@ -14,7 +14,7 @@ library(blogdown)
 ## V. S. Pritchett
 
 
-```{r, echo=FALSE, out.height="50%", out.width="50%",fig.align='center',fig.cap="V S Pritchett"}
+```{r, echo=FALSE, out.height="30%", out.width="30%",fig.align='center',fig.cap="V S Pritchett"}
 knitr::include_graphics("330px-Pritchett.jpg")
 ```
 
@@ -64,11 +64,23 @@ We will read VSP's story, **A Family Man**.
 
 This is a song about a woman's love for a married man. 
 
-{{< youtube 7_S2lTmIecI >}}\
+::: {#fig-whitney}
+<center>
+{{< video https://youtu.be/7_S2lTmIecI width="560" height="400" align="center" title="" >}}
+</center>
+Whitney Houston (1985) : Saving All my Love for You.
+:::
+
 
 2.  Fleetwood Mac (1987) : Tell Me Lies
 
-{{< youtube nL_VvbgC6sA >}}
+::: {#fig-fleetwood}
+<center>
+{{< video https://youtu.be/nL_VvbgC6sA width="560" height="400" align="center" title="" >}}
+</center>
+Fleetwood Mac (1987) : Tell Me Lies
+:::
+
 
 ## Writing Prompts
 

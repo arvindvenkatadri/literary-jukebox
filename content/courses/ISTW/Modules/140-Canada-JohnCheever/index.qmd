@@ -17,6 +17,7 @@ library(blogdown)
 
 
 ### Story
+
 We will read Cheever's dystopian tech story, **The Enormous Radio**, first published in 1953. It can be found in the collection of short stories titled *The Enormous Radio and Other Stories* (1953). It is also available in *The Stories of John Cheever* (1987).
 
 {{< pdf "../../../../materials/pdfs/Enormous_Radio_cheever.pdf" >}}
@@ -48,11 +49,18 @@ Release Date: Pongal / Makara Sankranthi, January 14, 1984\
 
 >"Somebody's Watching Me" is a song recorded by American singer Rockwell (Kennedy Gordy), released by the Motown label in 1984, as the lead single from his debut studio album of the same name. Rockwell's debut single release, the song features guest vocals by brothers Michael Jackson (in the chorus) and Jermaine Jackson (additional backing vocals).
 
-{{< youtube pHS4IUP8dDw >}}\
+::: {#fig-watching}
+<center>
+{{< video https://youtu.be/pHS4IUP8dDw width="560" height="400" align="center" title= "Somebody's Watching Me" >}}
+</center>
+Rockwell's "Somebody's Watching Me" (1984)
+:::
+
  
  Also listen to <u>[The Buggles - Video Killed the Radio Star](https://youtu.be/vRAn0ZM2TGM)</u> and <u>[Queen - Radio Gaga](https://youtu.be/pMYCOYjIKrE)</u>. And <u>[Men at Work - Who can it be now?](https://www.youtube.com/watch?v=TGnlBRm_PNA)</u>.
  
 ## Writing Prompts
+
 1. On being Average, or being thought to be Average
 1. Am I using [your favourite SM app] or is it using me?
 1. On Human Dreams and Technology. Take inspiration from Robert Lucky's paper, embedded above. Look especially on the Section VI. therein on *Fulfilling Ancient Dreams*.

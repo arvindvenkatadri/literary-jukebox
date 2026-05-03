@@ -13,12 +13,10 @@ library(embedr) # Embed multimedia in HTML files
 
 ## Alifa Rifaat
 
-```{r, echo=FALSE, out.height="50%", out.width="50%",fig.align='center'}
+```{r, echo=FALSE, out.height="40%", out.width="40%",fig.align='center'}
 knitr::include_graphics("AlifaRifaat.png")
 ```
 
-
-From the book blurb:
 
 > “More convincingly than any other woman writing in Arabic today, Alifa
 > Rifaat lifts the veil on what it means to be a woman living within a
@@ -30,23 +28,18 @@ From the book blurb:
 > sexual fulfillment, the lives of women in purdah, and the frustrations
 > of everyday life in a male-dominated Islamic environment.\
 >
-> Translated from the Arabic by [Denys Johnson-Davies](https://www.theguardian.com/world/2017/jun/18/denys-johnson-davies-obituary)
-> the collection admits the reader into a hidden private world,
-> regulated by the call of the mosque, but often full of profound
-> anguish and personal isolation. Badriyya’s despairing anger at her
-> deceitful husband, for example, or the haunting melancholy of “At the
-> Time of the Jasmine,” are treated with a sensitivity to the discipline
-> and order of Islam.
 
 ## Story
 
-We will read Rifaat's story *Bahiyya's Eyes* from the Collection, **Distant View of a Minaret and Other Stories**, edited and translated by Denys Johnson-Davies.
+We will read Rifaat's story *Bahiyya's Eyes* from the Collection, **Distant View of a Minaret and Other Stories**, edited and translated from the Arabic by [Denys Johnson-Davies](https://www.theguardian.com/world/2017/jun/18/denys-johnson-davies-obituary). 
+The collection admits the reader into a hidden private world, regulated by the call of the mosque, but often full of profound anguish and personal isolation. Badriyya’s despairing anger at her deceitful husband, for example, or the haunting melancholy of “At the
+Time of the Jasmine,” are treated with a sensitivity to the discipline and order of Islam.
 
 ```{r}
 #| echo: false
 #| fig-align: center
-#| out.height: "50%"
-#| out.width: "50%"
+#| out.height: "30%"
+#| out.width: "30%"
 knitr::include_graphics("DistantView.jpeg")
 
 ```
@@ -103,6 +96,8 @@ Director : Shekhar Kapoor\
 `r embedr::embed_audio("old_Masoom-Do Naina Aur Ek Kahani.mp3")`
 </center>
 
+::: {style="text-align: center; font-size: 0.75em;"}
+
 | Hindi Lyrics                                          | English Translation                                              |
 |-------------------------------------------------------|------------------------------------------------------------------|
 | Do naina aur ek kahanee(2)                            | Two eyes and one story,                                          |
@@ -121,6 +116,8 @@ Director : Shekhar Kapoor\
 | Do naino kee hain yeh kahanee                         | That is the story of the two eyes!                               |
 | thoda sa badal, thoda sa panee aur ek kahanee         | some clouds, some water, and a story                             |
 | Do naina aur ek kahanee...                            | Two eyes and one story.....                                      |
+
+:::
 
 ## Writing Prompts
 

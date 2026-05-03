@@ -17,8 +17,8 @@ library(emoji)
 #| echo: false
 #| fig.cap: "Lars Gustafsson (1936-2023)"
 #| fig.align: "center"
-#| out.width: "50%"
-#| out.height: "50%"
+#| out.width: "30%"
+#| out.height: "30%"
 
 knitr::include_graphics("Lars_Gustafsson.jpg")
 
@@ -33,9 +33,11 @@ From <u><https://larsgustafssonblog.blogspot.com></u>:
 
 ### Story
 
-We will read <u>[Greatness Strikes Where It Pleases.](LArs%20Gustafsson%20-%20Greatness%20Strikes%20Where%20it%20Pleases.docx)</u>
+We will read ***Greatness Strikes Where It Pleases***.
 
 > "Greatness Strikes Where It Pleases" by Swedish writer Lars Gustafsson, was first published in Sweden in 1981. Translated into English in 1986, it appeared in *Stories of Happy People* (Norton, 1986; in print). It can also be found in *You've Got to Read This: Contemporary Writers Introduce Stories That Held Them in Awe*, edited by Ron Hansen (New York, 1994).
+
+{{< pdf "../../../../materials/pdfs/LarsGustafsson-Greatness-Strikes-Where-It-Pleases.pdf">}}
 
 ### Themes
 
@@ -71,7 +73,13 @@ From <u><https://genius.com/Supertramp-the-logical-song-lyrics></u>
 “The Logical Song,” not unlike others in that period (eg – Pink Floyd’s “Another Brick in the Wall”) is a scathing criticism of British school and education at the time.
 When Paul McCartney was asked his favorite song of 1979, he chose “The Logical Song”. The song also won (Roger) Hodgson an Ivor Novello award from The British Academy of Composers and Songwriters in 1980.
 
-{{< youtube vD7HJcpJD9U >}}
+::: {#fig-logical}
+<center>
+{{< video https://youtu.be/vD7HJcpJD9U width="560" height="400" align="center" title="The Logical Song" >}}
+</center>
+Super Tramp performing "The Logical Song" in 1979
+:::
+
 
 ## Writing Prompts
 

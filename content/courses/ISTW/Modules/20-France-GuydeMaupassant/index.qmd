@@ -12,6 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 library(blogdown)
 #devtools::install_github("mccarthy-m-g/embedr")
 library(embedr) # Embed multimedia in HTML files
+###
+###::: {#fig-contradictions}
+##<center>
+##{{< video https://youtu.be/YwG4F-16Tno width="560" height="400" ##align="center" title="Houston, We have a Problem" >}}
+##</center>
+
+##Houston, We have a Problem.
+##:::
 
 ```
 
@@ -19,8 +27,8 @@ library(embedr) # Embed multimedia in HTML files
 
 ```{r}
 #| echo: false
-#| out.height: "50%"
-#| out.width: "50%"
+#| out.height: "30%"
+#| out.width: "30%"
 #| fig.align: 'center'
 #| fig.cap: "Guy de Maupassant (1850-1893)"
 #| fig.alt: "A portrait of Guy de Maupassant"
@@ -40,7 +48,13 @@ Suif**
 
 ### A Youtube discussion on this story
 
-{{< youtube zZtoLsWsECA >}}
+::: {#fig-discussion}
+<center>
+{{< video https://youtu.be/zZtoLsWsECA width="560" height="400" align="center" title="Boul de Suif by Guy de Maupassant" >}}
+</center>
+Boul de Suif by Guy de Maupassant:A Discussion
+:::
+
 
 ## Themes
 
@@ -95,10 +109,9 @@ Listen to Leonard Nimoy discuss this project on NPR:
 
 4.  It Ain't Over until the Fat Lady Sings:
     <u><https://knowyourphrase.com/aint-over-until-the-fat-lady-sings></u>
-
 5.  *Is it all about Hips?*: <u><http://bollynatyam.com/books/></u>
 
-```{r, echo=FALSE, out.height="50%", out.width="50%", fig.align='center'}
+```{r, echo=FALSE, out.height="30%", out.width="30%", fig.align='center'}
 knitr::include_graphics("images/book_cover_temp_website.jpg")
 ```
 <br>
@@ -116,6 +129,8 @@ Film: Amar Prem (1972)\
 <center>
 `r embedr::embed_audio("Kuchh to Log kahenge - Amar Pr.mp3")`
 </center>
+
+::: {style="text-align: center; font-size: 0.75em;"}
 
 | Hindi Lyrics                          | English Translation                                           |
 |-----------------------------------|--------------------------------------|
@@ -141,6 +156,7 @@ Film: Amar Prem (1972)\
 | Tum bolo yeh sach hai na              | You tell me, isn't this the truth?                            |
 | Kuch toh log kahenge                  | People will say something or the other                        |
 | ...                                   | ...                                                           |
+:::
 
 <br>
 
@@ -167,12 +183,23 @@ It has also been made into a movie.
 
 Here is the trailer:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xEZxcSf9HwM?si=RjKW33TpuFjZont7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+::: {#fig-trailer}
+<center>
+{{< video https://youtu.be/xEZxcSf9HwM width="560" height="400" align="center" title="A Woman in Berlin - Trailer" >}}
+</center>
+A Woman in Berlin - Trailer
+:::
+
 
 3. And of course this song from Sholay:
 
-{{< youtube ByAbV-MKDgs >}}
+::: {#fig-sholay}
+<center>
+{{< video https://youtu.be/ByAbV-MKDgs width="560" height="400" align="center" title="Mehbooba, Mehbooba" >}}
+</center>
+Mehbooba, Mehbooba
+:::
+
 
 ## Writing Prompts
 

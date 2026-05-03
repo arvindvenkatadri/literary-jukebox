@@ -6,15 +6,17 @@ date-modified: today
 order: 180
 
 ---
+
 ```{r}
 #| echo: false
 #| fig.cap: "Ruth Prawer Jhabvala"
 #| fig-alt: "Ruth Prawer Jhabvala"
 #| fig-align: "center"
-#| out.width: "50%"
-#| out.height: "50%"
+#| out.width: "30%"
+#| out.height: "20%"
 
 knitr::include_graphics("featured.jpg")
+
 ```
 
 
@@ -67,7 +69,13 @@ Lyrics: Anand Bakshi
 Cast: Anil Dhawan, Jaya Bhaduri  
 Director: Basu Chatterjee  
 
-{{< youtube IEcYHmAbznE >}}
+::: {#fig-piya}
+<center>
+{{< video https://youtu.be/IEcYHmAbznE width="560" height="400" align="center" title="Piya ka Ghar" >}}
+</center>
+Kishore Kumar's "Yeh Jeevan Hai" from the movie "Piya Ka Ghar" (1972) 
+:::
+
 
 ::: {style="text-align: center; font-size: 0.75em;"}
 
