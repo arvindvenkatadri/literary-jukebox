@@ -2,6 +2,7 @@
 title: <iconify-icon icon="streamline-emojis:japan"></iconify-icon>Japan - Hisaye Yamamoto
 subtitle: "Seventeen Syllables"
 date: 02/Jan/2024
+date-modified: today
 order: 30
 ---
 
@@ -12,8 +13,20 @@ library(embedr) # Embed multimedia in HTML files
 ```
 
 ## Hisaye Yamamoto
-<center>
-![](Hisaye-Yamamoto.jpeg)
+
+
+```{r}
+#| echo: false
+#| out.height: "50%"
+#| out.width: "50%"
+#| fig.align: 'center'
+#| fig.cap: "Hisaye Yamamoto (1921-2011)"
+#| fig.alt: "A portrait of Hisaye Yamamoto"
+
+
+knitr::include_graphics("Hisaye-Yamamoto.jpeg")
+```
+
 </center>
 
 
@@ -36,15 +49,17 @@ From <u><https://encyclopedia.densho.org/Hisaye_Yamamoto/></u>
 
 ## Story
 
-We will read Yamamoto's story <u>[Seventeen
-Syllables.](HisayeYamamoto%20-%2017%20syllables.docx)</u>
+We will read Yamamoto's story, **Seventeen
+Syllables**.
+
+{{< pdf "../../../../materials/pdfs/seventeen-syllables.pdf" >}}
 
 ## Themes
 
 -   Inter-generational Conflict
 -   Living as an Expat
--   First Love
--   Teenage Romance
+-   First Love / Teenage Romance
+-   Permission to Touch
 -   "Arranged Marriage" (picture marriage)
 -   Deception...
 
@@ -57,7 +72,6 @@ Syllables.](HisayeYamamoto%20-%2017%20syllables.docx)</u>
 1.  A Beautiful Scrolly Story about Yamamoto and her influence.
     <u><https://artsandculture.google.com/story/hisaye-yamamoto-an-american-story-american-writers-museum/OAVRaqAwV3tpLA?hl=en></u>
 2.  Reading Yamamoto. <u><https://faculty.georgetown.edu/bassr/heath/syllabuild/iguide/yamamoto.html></u>
-    
 3. Gangs of Wasseypur: "Permission Leni Chahiye, Na?" <u><https://youtu.be/To54dv2jnJg></u>
 
 ## Song for the Story
@@ -76,7 +90,9 @@ Movie/Album: Gateway Of India (1957)\
 
 Here is the audio track alone:
 
+<center>
 `r embedr::embed_audio("DO GHADI WOH - GATEWAY OF INDI.mp3")`
+</center>
 
 | **Hindi (and some Urdu!) lyrics**    | **English Translation**                                    |
 |----------------------------------|--------------------------------------|
@@ -106,10 +122,8 @@ Here is the audio track alone:
 ## Writing Prompts
 
 1.  Your Mama's "Arranged Marriage"
+1.  A Rant in GenZ language about almost anything (please create a Glossary in an Appendix!). NO OBSCENITY PLEASE. Your grade is on the line. 
+1.  Getting "(ab)used" to Dad's / Mom's taste in Music
+1.  The communication between parents and child in "Seventeen Syllables" and in <u>[Grace Paley's "The Loudest Voice"](http://www.loa.org/images/pdf/Paley_Loudest_Voice.pdf)</u>.
 
-2.  A Rant in GenZ language about almost anything (please create a Glossary in an Appendix!)
-
-3.  Getting "(ab)used" to Dad's / Mom's taste in Music
-
-4.  The communication between parents and child in "Seventeen Syllables"
-    and in <u>[Grace Paley's "The Loudest Voice"](http://www.loa.org/images/pdf/Paley_Loudest_Voice.pdf)</u>.
+{{< pdf "../../../../materials/pdfs/Paley_Loudest_Voice.pdf" >}}

@@ -2,6 +2,7 @@
 title: <iconify-icon icon="emojione-v1:flag-for-czechia"></iconify-icon> Czechia - Milan Kundera
 subtitle:  "The Hitchhiking Game"
 date: 2021-12-28
+date-modified: today
 order: 100
 ---
 
@@ -12,21 +13,29 @@ library(blogdown)
 
 ## Milan Kundera
 
-<center>
-![](featured.jpg)
-</center>
+```{r}
+#| echo: false
+#| fig.cap: "Milan Kundera"
+#| fig.align: "center"
+#| out.width: "50%"
+#| out.height: "50%"
+
+knitr::include_graphics("featured.jpg")
+```
 
 
 ## Story
 
-We will read this terrifying story by this great Writer. <u>[**The Hitchhiking Game**](/pdf/ISTW/MilanKundera-hitchhiking.pdf)</u>
+We will read this terrifying story by this great Writer, titled **The Hitchhiking Game**.]
+
+{{< pdf "../../../../materials/pdfs/MilanKundera-hitchhiking.pdf" >}}
 
 ## Themes
 
 -   Young Love
 -   Games and Teasing
--   Ego and Pain
 -   Rules in the Game
+-   Ego and Pain
 -   Consent
 
 ## Notes and References

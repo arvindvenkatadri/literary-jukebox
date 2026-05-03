@@ -2,7 +2,9 @@
 title: <iconify-icon icon="streamline-emojis:france"></iconify-icon> France - Guy de Maupassant
 subtitle: "Boule de Suif"
 date: 2021-12-28
+date-modified: today
 order: 20
+
 ---
 
 ```{r setup, include=FALSE}
@@ -15,12 +17,26 @@ library(embedr) # Embed multimedia in HTML files
 
 ## Guy de Maupassant
 
-![](featured.jpg)
+```{r}
+#| echo: false
+#| out.height: "50%"
+#| out.width: "50%"
+#| fig.align: 'center'
+#| fig.cap: "Guy de Maupassant (1850-1893)"
+#| fig.alt: "A portrait of Guy de Maupassant"
+
+knitr::include_graphics("featured.jpg")
+```
+
+
 
 ## Story
 
-We will read Maupassant's short short story, <u>[**Boule de
-Suif**](/pdf/ISTW/BouleDeSuif-Maupassant.pdf)</u>
+We will read Maupassant's short short story, **Boule de
+Suif**
+
+{{< pdf "../../../../materials/pdfs/BouleDeSuif-Maupassant.pdf" >}}
+
 
 ### A Youtube discussion on this story
 
@@ -32,7 +48,7 @@ Suif**](/pdf/ISTW/BouleDeSuif-Maupassant.pdf)</u>
 -   Being Fat
 -   Prejudice
 -   False Gratitude?
--   Scapegoat Mechanism
+-   Scapegoat Mechanism (Rene Girard's Mimetic Theory and the Scapegoat)
 -   Network Effects: Reputations, Rumours, and Viral Trends
 -   "Convenience"
 
@@ -45,14 +61,11 @@ Suif**](/pdf/ISTW/BouleDeSuif-Maupassant.pdf)</u>
 
 1.  Rene Girard's Mimetic Theory and the Scapegoat:
     <u><https://violenceandreligion.com/mimetic-theory/></u>
-
 2.  Frear, G. L. (1992). *René Girard on Mimesis, Scapegoats, and
     Ethics*. The Annual of the Society of Christian Ethics, 12, 115–133.
     <u><http://www.jstor.org/stable/23559770></u> [^1]
-
 3.  The Network Effects Bible.
     <u><https://www.nfx.com/post/network-effects-bible></u>
-
 4.  **The Beauty of Fat Women**: Leonard Nimoy ("Mr Spock") and his Full Body Project:
     <u><https://www.theguardian.com/artanddesign/gallery/2015/mar/03/the-full-body-project-by-leonard-nimoy-in-pictures></u>
 
@@ -75,8 +88,10 @@ Suif**](/pdf/ISTW/BouleDeSuif-Maupassant.pdf)</u>
 
 Listen to Leonard Nimoy discuss this project on NPR:
 
+<center>
 <iframe src="https://www.npr.org/player/embed/15912659/15912667" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
 </iframe>
+</center>
 
 4.  It Ain't Over until the Fat Lady Sings:
     <u><https://knowyourphrase.com/aint-over-until-the-fat-lady-sings></u>
@@ -88,8 +103,6 @@ knitr::include_graphics("images/book_cover_temp_website.jpg")
 ```
 <br>
 
-{{< youtube ByAbV-MKDgs >}}
-
 
 ## Videos/Songs for the Story
 
@@ -100,8 +113,9 @@ Singer: Kishore Kumar\
 Music: R. D. Burman\
 Film: Amar Prem (1972)\
 
+<center>
 `r embedr::embed_audio("Kuchh to Log kahenge - Amar Pr.mp3")`
-
+</center>
 
 | Hindi Lyrics                          | English Translation                                           |
 |-----------------------------------|--------------------------------------|
@@ -155,6 +169,10 @@ Here is the trailer:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xEZxcSf9HwM?si=RjKW33TpuFjZont7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
+
+3. And of course this song from Sholay:
+
+{{< youtube ByAbV-MKDgs >}}
 
 ## Writing Prompts
 

@@ -2,6 +2,7 @@
 title: <iconify-icon icon="emojione-v1:flag-for-sweden"></iconify-icon> Sweden - Lars Gustaffsson
 subtitle: "Greatness Strikes Where it Pleases"
 date: 2023-12-13
+date-modified: today
 order: 120
 ---
 
@@ -12,9 +13,17 @@ library(emoji)
 
 ## Lars Gustafsson
 
-<center>
-![](Lars_Gustafsson.jpg)
-</center>
+```{r}
+#| echo: false
+#| fig.cap: "Lars Gustafsson (1936-2023)"
+#| fig.align: "center"
+#| out.width: "50%"
+#| out.height: "50%"
+
+knitr::include_graphics("Lars_Gustafsson.jpg")
+
+```
+
 
 From <u><https://larsgustafssonblog.blogspot.com></u>:
 
@@ -34,7 +43,8 @@ We will read <u>[Greatness Strikes Where It Pleases.](LArs%20Gustafsson%20-%20Gr
 -   Sensorial Learning
 -   Siblings and Families
 -   Schools, Institutions, and Teaching Pedagogies
--   Nature Deprivation
+-   Nature Deprivation, and Nature Deficit Disorder
+-   Natural Shapes are Fractals more often than not, and the human brain is wired to recognize and respond to fractals. 
 -   Epiphanies
 
 ## Notes and References

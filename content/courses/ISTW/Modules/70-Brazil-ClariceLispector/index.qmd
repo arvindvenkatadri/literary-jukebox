@@ -1,11 +1,9 @@
 ---
 title: <iconify-icon icon="streamline-emojis:brazil"></iconify-icon> Brazil - Clarice Lispector
-author: "Arvind V"
 date: "2024-01-03"
+date-modified: today
 order: 70
-editor: 
-  markdown: 
-    wrap: 72
+
 ---
 
 ```{r setup, include=FALSE}
@@ -23,11 +21,9 @@ Brazil's greatest writers.....Clarice Lispector.
 
 ## Story
 
-We will read her story, "Beauty and the Beast, or, The Wound too Great",
-p. 291 in the <u>[Oxford Anthology of the Brazilian Short Story, edited
-by K. David
-Jackson](Oxford%20Anthology%20of%20the%20Brazilian%20Short%20St%20-%20Jackson,%20K.%20David.pdf).
-</u>
+We will read her story, "Beauty and the Beast, or, The Wound too Great", p. 291 in the **Oxford Anthology of the Brazilian Short Story**, edited by K. David Jackson.
+
+{{< pdf "OxfordAnthologyoftheBrazilianShortStory-JacksonDavid.pdf" >}}
 
 ## Themes
 
@@ -43,8 +39,7 @@ Jackson](Oxford%20Anthology%20of%20the%20Brazilian%20Short%20St%20-%20Jackson,%2
 
 ### Notes and References
 
-1.  <u><https://www.newyorker.com/books/page-turner/the-true-glamour-of-clarice-lispector></u>
-
+1.  The New Yorker. *The True Glamour of Clarice Lispector*. <u><https://www.newyorker.com/books/page-turner/the-true-glamour-of-clarice-lispector></u>
 2.  Suryakant Tripathi "Nirala". 1923. *Bhikshuk*.
     <u><http://kavitakosh.org></u>
 
@@ -84,7 +79,7 @@ Jackson](Oxford%20Anthology%20of%20the%20Brazilian%20Short%20St%20-%20Jackson,%2
 
 **तुम्हारे दुख मैं अपने हृदय में खींच लूँगा।**
 
-[-Suryakant Tripathi "Nirala"]{style="float:right"}
+[- Suryakant Tripathi "Nirala"]{style="float:right"}
 
 <br>
 
@@ -97,15 +92,14 @@ what we saw in the story...who *is* the beggar?
 
 <br>
 
-Another not un-related song, is this one by England Dan Seals and John
-Ford Coley, especially if you think the lady had a boyfriend earlier.
+Another not un-related song, is this one by [England Dan Seals and John Ford Coley](https://open.spotify.com/artist/01W8kYNqFHyKicPfR0pLwO), especially if you think the lady had a boyfriend earlier.
 
 {{< youtube f1E-Z6_BCiE >}}
 
 ## Writing Prompts
 
-1.  On Growing Older by 5 years in 5 minutes
+1.  Epiphany: On Growing Older by 5 years in 5 minutes
 2.  On How Others seem to Define Us
-3.  Explain something using Religous Metaphors (any religion, any
+3.  Explain something using Religious Metaphors (any religion, any
     scripture) !!
 

@@ -2,6 +2,7 @@
 title: <iconify-icon icon="streamline-emojis:russia"></iconify-icon> Russia - Ivan Bunin
 subtitle: "Sunstroke"
 date: 2022-03-06
+date-modified: today
 order: 90
 ---
 
@@ -32,8 +33,9 @@ library(blogdown)
 
 ### Story
 
-We will read Ivan Bunin's short story,
-<u>[**Sunstroke**](/pdf/ISTW/IvanBunin-Sunstroke.pdf)</u>
+We will read Ivan Bunin's short story,**Sunstroke**.
+
+{{< pdf "../../../../materials/pdfs/IvanBunin-Sunstroke.pdf" >}}
 
 ### Themes
 
@@ -56,6 +58,7 @@ library(sf)
 library(maps)
 library(tmap)
 library(leaflet)
+library(leaflet.providers)
 library(rnaturalearth)
 library(rnaturalearthdata)
 library(rnaturalearthhires)
@@ -66,11 +69,26 @@ tmap_mode("view")
 data("World_rivers", package = "tmap")
 data("World",package = "tmap")
 data("metro",package = "tmap")
-#tm_check_fix()
+crs <- sf::st_crs(World)
+# tm_check_fix()
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+box <- c(xmin = 30, xmax = 45, ymin = 30, ymax = 51)
+bbox <- matrix(box, byrow = FALSE, nrow = 2, ncol = 2, dimnames = list(c("x", "y"), c("min", "max")))
 
 russian_rivers <- World_rivers %>%
-  filter(name %in% c("Volga", "Don", "Dnipro"))
-countries <- ne_countries(scale = "large", returnclass = "sf")
+  filter(name %in% c("Volga", "Don", "Dnipro")) %>% 
+  sf::st_set_crs(crs) %>% 
+  sf::st_crop(box)
+
+countries <- ne_countries(scale = "large", returnclass = "sf") 
+
 bunin_world <-
   countries %>% filter(
     name %in% c(
@@ -98,10 +116,11 @@ bunin_world <-
       "Kosovo",
       "Montenegro"
     )
-  )
+  ) 
+
 bunin_cities <-
-  maps::world.cities %>% filter(
-    country.etc %in% c("Russia", "Ukraine" ),
+  maps::world.cities %>% 
+  filter(country.etc %in% c("Russia", "Ukraine" ),
     name %in% c(
       "Moscow",
       "Samara",
@@ -118,12 +137,31 @@ seb <- tibble(name = "Sebastopol", country.etc = "Russia", pop = 0, lat =44.7054
 bunin_cities <- bunin_cities %>% 
       rbind(anapa) %>% 
   rbind(seb) %>% 
-  st_as_sf(coords = c("long", "lat"))
+  st_as_sf(coords = c("long", "lat")) %>% 
+  sf::st_set_crs(crs) %>% 
+  sf::st_crop(box)
 
 ```
 
 
-```{r,echo=FALSE}
+```{r}
+#| echo: false
+#| eval: false
+
+ggplot() + 
+  geom_sf(data = bunin_world) + 
+  geom_sf(data = russian_rivers, aes(color = name)) + 
+  geom_sf(data = bunin_cities, color = "red", size = 2) + 
+  theme_void() + 
+  labs(title = "The World from Bunin's Sunstroke", 
+       subtitle = "The World, the Rivers, and the Cities") + 
+  theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 20), plot.subtitle = element_text(hjust = 0.5, face = "italic", size = 16), legend.position = "none")
+```
+
+
+```{r}
+#| echo: false
+#| 
 leaflet(data = bunin_world,height = "50%",width = "50%",) %>% 
   leaflet() %>%
   #addProviderTiles(providers$OpenStreetMap, group = "Open Street Map") %>% 
@@ -174,7 +212,11 @@ leaflet(data = bunin_world,height = "50%",width = "50%",) %>%
 
 ```
 
-```{r,eval= FALSE,echo=FALSE}
+```{r}
+#| echo: false
+#| eval: false
+
+
 tmap_mode("view")
 bunin_map <- tm_shape(bunin_world, bbox = bbox) +
   tm_borders(lwd = 2) +

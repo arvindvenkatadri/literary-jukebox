@@ -1,6 +1,7 @@
 ---
 title: <iconify-icon icon="streamline-emojis:russia"></iconify-icon> Russia - Maxim Gorky
 date: "2024-01-03"
+date-modified: today
 order: 50
 ---
 
@@ -48,8 +49,9 @@ knitr::include_graphics("Maxim_Gorky.jpg")
 
 ## Story
 
-We will read Gorky's story <u>[The
-Clown.](Maxim%20Gorky%20-%20The%20Clown.docx)</u>
+We will read Gorky's story, **The Clown**.
+
+{{< pdf "../../../../materials/pdfs/MaximGorky-TheClown.pdf" >}}
 
 ## Themes
 
@@ -81,9 +83,11 @@ Clown.](Maxim%20Gorky%20-%20The%20Clown.docx)</u>
 > a phrase that Jacobs herself coined about the crucial importance of a
 > vibrant street life to neighborhood safety and community.
 
-<iframe src="https://www.npr.org/player/embed/495615064/495798983" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
+<center>
 
-</iframe>
+<iframe src="https://www.npr.org/player/embed/495615064/495798983" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+
+</center>
 
 4.  Carlheim-Gyllensköld, Monika. March 11, 2016. [*Lars Gustafsson's Blog: An open letter to Roger Mogert*](https://larsgustafssonblog.blogspot.com/2016/03/gastartikelmonika-gyllenskolddet.html)
 5.  On Not Speaking Out and the Bystander Effect
@@ -160,14 +164,18 @@ Clown.](Maxim%20Gorky%20-%20The%20Clown.docx)</u>
 ## Writing Prompts
 
 1.  On being funny at the "wrong time"
-2.  On being a bystander in a street crime / Actions Speak Louder than
+1.  On being a bystander in a street crime
+1.  Actions Speak Louder than
     Words?
-3.  On the Design of an ad/campaign for the Police to prevent
+1.  On the Design of an ad/campaign for the Police to prevent
     neighbourhood crime
-4.  On a cringe-worthy act on your part (autobiographical first person
+1.  On a cringe-worthy act on your part (autobiographical first person
     writing)
-5.  A discussion of jobs and professions that seem to take risks for the
+1.  A discussion of jobs and professions that seem to take risks for the
     benefit of society
-6.  Comparing this story with <u>[Peter Carey's The Last Days of the
-    Famous
-    Mime](Peter%20Carey%20-%20The%20Last%20Days%20of%20the%20Famous%20Mime.docx)</u>.
+1.  Comparing this story with Peter Carey's **The Last Days of the
+    Famous Mime**.
+    
+{{< pdf "../../../../materials/pdfs/PeterCarey-TheLastDaysOfTheFamousMime.pdf" >}}
+
+[](../../materials/pdfs/PeterCarey-TheLastDaysOfTheFamousMime.pdf)

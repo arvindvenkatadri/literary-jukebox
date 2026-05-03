@@ -2,11 +2,22 @@
 title: <iconify-icon icon="streamline-emojis:india"></iconify-icon> India - Ruth Prawer Jhabvala
 subtitle:  "The Interview"
 date: 2022-04-22
+date-modified: today
 order: 180
 
 ---
+```{r}
+#| echo: false
+#| fig.cap: "Ruth Prawer Jhabvala"
+#| fig-alt: "Ruth Prawer Jhabvala"
+#| fig-align: "center"
+#| out.width: "50%"
+#| out.height: "50%"
 
-![](featured.jpg)
+knitr::include_graphics("featured.jpg")
+```
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(blogdown)
@@ -24,9 +35,9 @@ From: <u><https://www.britannica.com/biography/Ruth-Prawer-Jhabvala></u>
 
 ### Story
 
-We will read this beautiful, beautifully written story, with a completely cringe-worthy character in it.
+We will read this beautiful, beautifully written story, with a completely cringe-worthy character in it, **The Interview**.
 
-<u>[**The Interview**](/pdf/ISTW/RuthJhabvala-The Interview.pdf)</u>
+{{< pdf "../../../../materials/pdfs/RuthJhabvala-The-Interview.pdf" >}}
 
 ### Themes
 
@@ -37,14 +48,13 @@ We will read this beautiful, beautifully written story, with a completely cringe
 
 ### Notes and References
 
-1. <u>[**The Difficult Genius of Ruth Prawer Jhabvala**](<https://www.theatlantic.com/entertainment/archive/2019/01/difficult-genius-ruth-prawer-jhabvala/581464/?utm_source=copy-link&utm_medium=social&utm_campaign=share>)</u>
+1. The Atlantic Magazine.(2019). <u>[**The Difficult Genius of Ruth Prawer Jhabvala**](<https://www.theatlantic.com/entertainment/archive/2019/01/difficult-genius-ruth-prawer-jhabvala/581464/?utm_source=copy-link&utm_medium=social&utm_campaign=share>)</u>
 
 
 ### Additional Material
 
-1. The Great Indian Family: New Roles, Old Responsibilities, <u><https://www.amazon.in/Gitanjali-Prasad/e/B001HPLWHW/ref=dp_byline_cont_pop_book_1></u>
-
-2. Mukul Kesavan, The ugly Indian man: Of hygiene, hair and horrible habits, <u><https://www.telegraphindia.com/opinion/the-ugly-indian-man-of-hygiene-hair-and-horrible-habits/cid/1026680#></u>
+1. Gitanjali Prasad.(). <u>[*The Great Indian Family: New Roles, Old Responsibilities*](https://www.amazon.in/Gitanjali-Prasad/e/B001HPLWHW/ref=dp_byline_cont_pop_book_1)</u>
+2. Mukul Kesavan. <u>[The Ugly Indian man: Of hygiene, hair and horrible habits](https://www.telegraphindia.com/opinion/the-ugly-indian-man-of-hygiene-hair-and-horrible-habits/cid/1026680#)</u>
 
 ### Song for the Story
 
@@ -59,6 +69,34 @@ Director: Basu Chatterjee
 
 {{< youtube IEcYHmAbznE >}}
 
+::: {style="text-align: center; font-size: 0.75em;"}
+
+### Lyrics and Translation
+
+Hindi  | English Translation
+------------- | -------------
+Yeh Jeevan Hai | This is life
+Is Jeevan Ka Yahi Hai - Yahi Hai - Yahi Hai Rungroop | These are the colors of these life, This is the way of life
+Yeh Jeevan Hai | This is life
+----- | ------
+Thode Ghum Hain, Thodi Khushiyan(2) | A bit of sadness, A bit of happiness(2)
+Yahi Hai - Yahi Hai - Yahi Hai Chaon Dhoop | A bit of shadow, A bit of sun, The good and bad moments are here only
+Yeh Jeevan Hai | This is life
+------ | ------
+Yeh Na Socho Isme Apni Haar Hai Ke Jeet Hai | Don’t think that in this we will win or lose, Don’t think in this life you are winning or losing
+Ise Apna Lo Jo Bhi Jeevan Ki Reet Hai | Just accept it what life has offered you, The way method of life accept it whatever it may be
+Yeh Zid Chodo, Yuh Na Todo | Leave this stubbornness, don’t break this moment
+Har Pal Ek Darpan Hai | Every moment is a mirror
+Yeh Jeevan Hai | This is life
+------ | ------
+Dhan Se Na Duniya Se, Ghar Se Na Dwar Se(2) | Not with money or worldly happiness nor with home nor door
+Saason Ki Dor Bandhi Hai, Preetam Ke Pyar Se | Lover's breath is linked with his beloved's love, like a thread
+Duniya Choote, Par Na Toote, Yeh Aisa Bandhan Hai | One may leave this world but this is such a relationship that it never breaks
+------ | ------
+Yeh Jeevan Hai | This is life
+Is Jeevan Ka Yahi Hai - Yahi Hai - Yahi Hai Rungroop | These are the colors of these life, This is the way of life
+Yeh Jeevan Hai | This is life
+:::
 
 ### Writing Prompts
 

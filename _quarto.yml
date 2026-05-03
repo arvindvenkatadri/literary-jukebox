@@ -20,6 +20,10 @@ website:
   bread-crumbs: true
   open-graph: true
   search: true
+  cookie-consent: false
+    # type: express
+    # style: headline
+    # palette: dark
   twitter-card: true
   title: "Literary Jukebox: Design Thinking from Short Fiction"
   site-url: "https://literary-jukebox.netlify.app"

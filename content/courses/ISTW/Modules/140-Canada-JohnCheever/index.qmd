@@ -2,6 +2,7 @@
 title: <iconify-icon icon="streamline-emojis:canada"></iconify-icon> Canada - John Cheever
 subtitle: "The Enormous Radio"
 date: 2021-12-28
+date-modified: today
 order: 140
 
 ---
@@ -16,26 +17,28 @@ library(blogdown)
 
 
 ### Story
-We will read Cheever's dystopian tech story, <u>[The Enormous Radio](Enormous_Radio_cheever.docx)</u>.
+We will read Cheever's dystopian tech story, **The Enormous Radio**, first published in 1953. It can be found in the collection of short stories titled *The Enormous Radio and Other Stories* (1953). It is also available in *The Stories of John Cheever* (1987).
+
+{{< pdf "../../../../materials/pdfs/Enormous_Radio_cheever.pdf" >}}
 
 ## Themes
 
 - Communications Technology: Boon and Bane
 - "Sweet Old Tech"
 - Uses of Tech, and Used by Tech
-- "We Wish to Be SomeWhere We are Not"
-- "We Wish to Be Some~When~Time We are Not"
-- "We Wish to Be SomeOne We are Not"
-- "We Wish to Be SomeThing We are Not"
+- After Robert Lucky's *New Communications Services --What does Society want?*, we can also talk about the following **Ancient Human Dreams**, and how modern SM platforms seem to make these possible, sometimes in disturbing ways:\
+  - "We Wish to Be Some-Where We are Not"
+  - "We Wish to Be Some-When (Time) We are Not"
+  - "We Wish to Be Some-One We are Not"
+  - "We Wish to Be Some-Thing We are Not"
 - Forbidden Knowledge
 - Love Thy Neighbour
-- 
+
 ## Additional Material
+
+{{< pdf "../../../../materials/pdfs/RobertLucky-Telecom-What-does-Society-Want.pdf" >}}
+
 ### Notes and References
-
-
-
-
  
 ## Song for the Story !!
 
@@ -47,12 +50,12 @@ Release Date: Pongal / Makara Sankranthi, January 14, 1984\
 
 {{< youtube pHS4IUP8dDw >}}\
  
- Also listen to <u>[The Buggles - Video Killed the Radio Star](https://youtu.be/vRAn0ZM2TGM)</u> and <u>[Queen - Radio Gaga](https://youtu.be/pMYCOYjIKrE)</u>.
+ Also listen to <u>[The Buggles - Video Killed the Radio Star](https://youtu.be/vRAn0ZM2TGM)</u> and <u>[Queen - Radio Gaga](https://youtu.be/pMYCOYjIKrE)</u>. And <u>[Men at Work - Who can it be now?](https://www.youtube.com/watch?v=TGnlBRm_PNA)</u>.
  
 ## Writing Prompts
 1. On being Average, or being thought to be Average
 1. Am I using [your favourite SM app] or is it using me?
-1. On Human Dreams and Technology. Take inspiration from <u>[Robert Lucky *New Communications Services --What does Society want?*](Robert Lucky - Telecom-What does Society Want.pdf)</u>. Look especially on the Section VI. therein on *Fulfilling Ancient Dreams*.
+1. On Human Dreams and Technology. Take inspiration from Robert Lucky's paper, embedded above. Look especially on the Section VI. therein on *Fulfilling Ancient Dreams*.
 1. On bugs in internet apps. Take inspiration from Vinton G. Cerf's famous Internet document in poetry form, RFC968 <u><https://datatracker.ietf.org/doc/html/rfc968></u>.
 
  

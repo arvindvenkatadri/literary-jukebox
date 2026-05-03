@@ -2,6 +2,7 @@
 title: <iconify-icon icon="streamline-emojis:united-kingdom"></iconify-icon> England - V S Pritchett
 subtitle:  "The Family Man"
 date: 2021-12-28
+date-modified: today
 order: 80
 ---
 
@@ -33,7 +34,9 @@ Extracted from <u><https://www.theguardian.com/books/booksblog/2008/feb/22/vspri
 
 ## Story
 
-We will read his story <u>[**A Family Man**.](/pdf/ISTW/VS-Pritchett-A-Family-Man.docx)</u>
+We will read VSP's story, **A Family Man**.
+
+{{< pdf "../../../../materials/pdfs/VS-Pritchett-A-Family-Man.pdf" >}}
 
 ## Themes
 
@@ -47,9 +50,9 @@ We will read his story <u>[**A Family Man**.](/pdf/ISTW/VS-Pritchett-A-Family-Ma
 ## Additional Material
 
 1.  Adultery makes for good fiction!
-    -   Ford Madox Ford, *The Good Soldier*
-    -   Jane Smiley, *The Age of Grief*
-    -   Kate Chopin, *The Awakening*
+    -   Ford Madox Ford, *The Good Soldier*. <https://www.gutenberg.org/ebooks/2775>
+    -   Jane Smiley, *The Age of Grief*. <https://www.panmacmillan.com/authors/jane-smiley/the-age-of-grief/9781509844227>
+    -   Kate Chopin, *The Awakening*. <https://www.gutenberg.org/files/160/160-h/160-h.htm>
 
 ## Notes and References
 
@@ -57,7 +60,9 @@ We will read his story <u>[**A Family Man**.](/pdf/ISTW/VS-Pritchett-A-Family-Ma
 
 ## Songs for the Story
 
-1.  Whitney Houston (1985) : Saving All my Love for You
+1.  Whitney Houston (1985) : Saving All my Love for You.
+
+This is a song about a woman's love for a married man. 
 
 {{< youtube 7_S2lTmIecI >}}\
 
@@ -68,4 +73,5 @@ We will read his story <u>[**A Family Man**.](/pdf/ISTW/VS-Pritchett-A-Family-Ma
 ## Writing Prompts
 
 1.  Lying for the sake of goodness
-2.  
+2.  Sins of Ommission and Sins of Commission
+

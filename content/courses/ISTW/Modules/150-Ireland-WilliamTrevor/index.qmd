@@ -2,6 +2,7 @@
 title: <iconify-icon icon="twemoji:flag-ireland"></iconify-icon> Ireland - William Trevor
 subtitle:  "A Choice of Butchers"
 date: 2021-12-28
+date-modified: today
 order: 150
 ---
 
@@ -19,9 +20,7 @@ library(blogdown)
 
 ## Story
 
-We will read a sombre but enlightening story by this great Writer. 
-
-<u>[**A Choice of Butchers**](/pdf/ISTW/A-Choice-of-Butchers.pdf)</u>
+We will read a sombre but enlightening story by this great Writer, **A Choice of Butchers**. I will bring hardcopies to class and we will read aloud. It is also available in the collection of short stories titled *The Collected Stories* (2005). It can also be found in *You've Got to Read This: Contemporary Writers Introduce Stories That Held Them in Awe*, edited by Ron Hansen (New York, 1994).
 
 ## Additional Material
 
@@ -30,7 +29,7 @@ Quoted from the <u>[**LitHub Website**](https://lithub.com/)</u>
 > One of his stories that has always spoken to me is “A Choice of Butchers.” Reading it again, I prepared myself in advance for the emotional impact it would have on me, only to experience its tragic force more acutely. He handles the intersection of childhood with the adult world so beautifully. To me this is a story both about the loss of innocence and, at the same time, the ongoing state of innocence that can betray us when we are young.
 I cherish the dreary details of the house, the oatmeal wallpaper, the way he describes domestic spaces and habits, and people’s physical traits. And that uncommon, perfect word at the end to describe the father: “rumbustiousness.” The story is layered and ambiguous, elegiac, brilliantly understated, impossible not to read in one sitting. It articulates the terrifying resentment, disappointment, and anger we can feel towards our parents, and the confusion and distress evoked by those very feelings.
 
-[–Jhumpa Lahiri]{style="float:right"}
+[– Jhumpa Lahiri]{style="float:right"}
 
 
 
@@ -49,8 +48,7 @@ I cherish the dreary details of the house, the oatmeal wallpaper, the way he des
 ### Notes and References
 
 1. <u>[**7 Writers share their favourite William Trevor story**](https://lithub.com/7-writers-share-their-favorite-william-trevor-story/)</u>
-
-2. Another good "Dad" story is this one by Grace Paley: <u>[**A Conversation with My Father**](/pdf/ISTW/AConversationWithMyFather-GracePaley.pdf)</u>
+2. Another good "Dad" story is this one by Grace Paley: <u>[**A Conversation with My Father**](../../../../materials/pdfs/AConversationWithMyFather-GracePaley.pdf)</u>
 
 
 ## Song for the Story
@@ -61,7 +59,58 @@ Billy Currington's Country hit from 2003, *Walk a Little Straighter*.
 
 {{< youtube U1no7Or9BeI >}}
 
-<div id='rg_embed_link_446283' class='rg_embed_link' data-song-id='446283'>Read <a href='https://genius.com/Billy-currington-walk-a-little-straighter-lyrics'>“Walk A Little Straighter” by Billy Currington</a> on Genius</div> <script crossorigin src='//genius.com/songs/446283/embed.js'></script>
+
+Walk A Little Straighter
+Billy Currington
+
+::: {style="text-align: center; font-size: 0.75em;"}
+
+I remember lookin' up to look up to him.\
+An' I remember, most the time he wasn't there.\
+I'd be waitin' at the door when he got home at night.\
+He'd pass me by to go pass out in his chair.\
+
+An' I'd say: "Walk a little straighter, Daddy,\
+You're swayin', side to side.\
+Your footsteps make me dizzy,\
+And no matter how I try,\
+I keep trippin' an' stumblin'.\
+If you'd look down here, you'd see:\
+Walk a little straighter, Daddy,\
+You're leading me."\
+
+He stumbled in the gym on graduation day.\
+An' I couldn't help but feel so ashamed.\
+An' I wasn't surprised a bit when he didn't stay,\
+He stumbled out before they called my name.\
+
+An' I thought: "Walk a little straighter, Daddy,\
+You're swayin', side to side.\
+It's not just me who's watching,\
+You've caught everybody's eye.\
+And you're trippin' an' stumblin',\
+And even though I've turned eighteen,\
+Walk a little straighter, Daddy,\
+You're still leading me."\
+
+The old man's still like he always was,\
+But I love him anyway.\
+If I've learned one thing from him,\
+It's my kids will never have to say:\
+
+"Walk a little straighter, Daddy,\
+You're swayin', side to side.\
+Your footsteps make me dizzy,\
+And no matter how I try,\
+I keep trippin' an' stumblin'.\
+If you'd look down here, you'd see:\
+Walk a little straighter, Daddy,\
+You're leading me."\
+
+"Yeah, walk a little straighter, Daddy,\
+You're leading me."
+
+:::
 
 ## Writing Prompts
 

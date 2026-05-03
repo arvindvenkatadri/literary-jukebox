@@ -1,7 +1,7 @@
 ---
 title: <iconify-icon icon="streamline-emojis:egypt"></iconify-icon> Egypt - Alifa Rifaat
-author: "Arvind V"
 date: "2024-01-03"
+date-modified: today
 order: 60
 ---
 
@@ -40,19 +40,18 @@ From the book blurb:
 
 ## Story
 
-We will read Rifaat's story *Bahiyya's Eyes* from the Collection
-<u>[**Distant View of a Minaret and Other
-Stories**.](Distant%20View%20of%20a%20Minaret%20and%20Other%20Storie%20-%20Rifaat,%20Alifa.pdf)</u>
-
+We will read Rifaat's story *Bahiyya's Eyes* from the Collection, **Distant View of a Minaret and Other Stories**, edited and translated by Denys Johnson-Davies.
 
 ```{r}
 #| echo: false
 #| fig-align: center
+#| out.height: "50%"
+#| out.width: "50%"
 knitr::include_graphics("DistantView.jpeg")
 
 ```
 
-
+{{< pdf "../../../../materials/pdfs/DistantViewOfAMinaretandOtherStories-RifaatAlifa.pdf" >}}
 
 ## Themes
 
@@ -71,27 +70,18 @@ knitr::include_graphics("DistantView.jpeg")
 
 1.  بَهِيّ**ة** Bahiyyah is an Arabic name for girls that means
     “brilliant”, “beautiful”, “radiant”.
-
 2.  Alifa Rifaat on the Dangerous Women Project
     <u><https://dangerouswomenproject.org/2016/04/30/alifa-rifaat/></u>
-
 3.  Banipal Magazine of Modern Arabic Literature.
     <u><http://www.banipal.co.uk></u>
-
-4.  <u><https://www.arabicfiction.org/en></u>
-
-5.  Denys Johnson-Davies
+4.  Arabic Fiction. <u><https://www.arabicfiction.org/en></u>
+5.  Denys Johnson-Davies: Obituary.(Jun 18, 2017)
     <u><https://www.theguardian.com/world/2017/jun/18/denys-johnson-davies-obituary></u>
-
-6.  Malti-Douglas, Fedwa. *Men, Women, and God(s): Nawal El Saadawi and
-    Arab Feminist Poetics*. Berkeley: University of California Press,
+6.  Malti-Douglas, Fedwa. *Men, Women, and God(s): Nawal El Saadawi and Arab Feminist Poetics*. Berkeley: University of California Press,
     c1995 1995. <u><http://ark.cdlib.org/ark:/13030/ft8c6009n4/></u>
-
 7.  *Ya Baheya, the Woman Behind the Legend*.
     <u><http://www.shira.net/music/ya-baheya-background.htm></u>
-
 8.  *Oyun Baheya*, the Song. <u><https://youtu.be/sb4ZNdLGeIo></u>
-
 9. Female Genital Mutilation. <u><https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation></u> and <u><https://data.unicef.org/topic/child-protection/female-genital-mutilation/></u>
 
 
@@ -136,7 +126,7 @@ Director : Shekhar Kapoor\
 
 1.  Contemplate your life, and demise, and write a Will. Dwell on
     relationships and not merely on (imaginary) opulence/ property.
-2.  Your Friend is Blind.
+2.  Your Friend is (going) Blind.
 3.  A Child discovers a piece of Family History.
 4.  Compare the theme of *blindness* in this story with that in
     <u>[Raymond Carver's story,

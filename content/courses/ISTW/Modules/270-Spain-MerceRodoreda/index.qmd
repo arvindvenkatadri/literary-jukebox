@@ -2,7 +2,7 @@
 title: <iconify-icon icon="streamline-emojis:spain"></iconify-icon> Spain-Merce Rodoreda
 subtitle: "Rain"
 date: "2024-03-12"
-order: 260
+order: 270
 ---
 
 ```{r setup, include=FALSE}
@@ -12,17 +12,27 @@ library(embedr) # Embed multimedia in HTML files
 
 ## Merce Rodoreda
 
-![1997 photo by Vilallonga of a portrait of Mercè Rodoreda Rodoreda (via Wikimedia Commons CC BY-SA 2.5)](Rodoreda.jpg)
+```{r}
+#| echo: false
+#| fig-alt: "1997 photo by Vilallonga of a portrait of Mercè Rodoreda Rodoreda (via Wikimedia Commons CC BY-SA 2.5)"
+#| fig-align: "center"
+#| out.width: "50%"
+#| out.height: "50%"
 
-<br>
+knitr::include_graphics("Rodoreda.jpg")
+```
+
 
 Mercé Rodoreda i Gurguí was born on 10 October 1908 in Barcelona. She is the most translated author from Catalan<iconify-icon icon="openmoji:catalonia-flag"></iconify-icon> into any other language, and her novel *La plaça del Diamant (In Diamond Square)* is one of the most celebrated novels of the Spanish Civil War. 
 
 ## Story
 
-We will read Rodoreda's story <u>[Rain.](Rain - Merce Rodoreda.docx)</u>
+We will read Rodoreda's story, ***Rain***.
+
+{{< pdf "../../../../materials/pdfs/Rain-MerceRodoreda.pdf">}}
 
 ## Themes
+
 - Independent Single Women
 - Making Decisions
 - Is Marriage crumbling as an Institution?
@@ -44,9 +54,69 @@ Artistes: Dragon ( pop group from NZ)\
 Title: Rain\
 Date: July 1983\
 Chart Position: US(88); Aus(2)\
+
+About *Rain*:
+"Rain" is a song by Australian-New Zealand rock group Dragon released in July 1983 as the first single ahead of their seventh studio album, Body and the Beat (June 1984). It is co-written by the group's brothers, Marc and Todd Hunter with Johanna Pigott, Todd's then-domestic partner. "Rain" peaked at number 2 and stayed in the Kent Music Report singles chart for 26 weeks. The song reached number 88 on the United States Billboard Hot 100 charts in mid-1984. For the original single version the group's Kerry Jacobson had provided drums and percussion; he left the group in September 1983 and was replaced by Terry Chambers, who is shown in promotional material including cover art and music videos.  
+
 Lyrics: <u><https://www.lyrics.com/lyric/1406915/Rain></u>
 
 {{< youtube W-X2HpAE0to >}}
+
+Rain, by Dragon
+
+::: {style="text-align: center; font-size: 0.75em;"}
+
+Ah, it's a happening thing\
+And it's happening to you\
+Full load and thunder\
+Ribbons of blue\
+Ice on the window\
+Ice in my heart\
+Filling with Thunder\
+Every time we start\
+
+[Chorus]\
+Its been raining for so long,\
+Its been raining for so long.\
+
+Or is it a wonder\
+The streets are dark?\
+Is it any wonder\
+We fall apart?\
+Day after days strange rain falls down\
+All over town rain coming\
+
+[Chorus]\
+
+Don't you go out in the rain\
+Don't go out in the pouring rain\
+If you go out in the rain\
+We never have that time again\
+
+Is it any wonder the streets are dark\
+Is it any wonder we fall apart\
+All these feelings and seems so wrong\
+Our ever memory were so strong\
+Well its been raining for so long\
+Its been raining I can't go on\
+
+Don't you go out in the rain\
+Don't go out in the pouring rain\
+If you go out in the rain\
+We never have that time again\
+
+Don't you go out in the rain\
+Don't go out in the pouring rain\
+If you go out in the rain\
+We never have that time again\
+
+Don't you go out in the rain\
+Don't go out in the pouring rain\
+If you go out in the rain\
+We never have that time again\
+
+:::
+
 
 ## Writing Prompts
 
