@@ -27,7 +27,7 @@ To get started, you can check out my courses on this website.
 
 My teaching websites are:\
 
-- [Literary Jukebox: Design Thinking from Short Fiction](https://literary-jukebox.netlify.app)\ (This one!!)
+- [Literary Jukebox: Art + Design Thinking from Short Fiction](https://literary-jukebox.netlify.app)\ (This one!!)
 - [Data Viz and Stats in R](https://madhatterguide.netlify.app)\
 - [Data Visualization with No Code](https://nocodedataviz.netlify.app/)\
 - [Model Thinking in Design](https://old-tortoise-taught-us.netlify.app/)\

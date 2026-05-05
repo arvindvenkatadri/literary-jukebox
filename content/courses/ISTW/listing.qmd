@@ -2,6 +2,7 @@
 title: "Literary Jukebox: Art + Design Thinking Principles from Short Fiction"
 subtitle: "In Short, the World"
 date: 2022/Dec/31
+date-modified: today
 image: preview.jpg
 image-alt: "Photo by Preston A Larimer"
 listing: 
@@ -15,6 +16,16 @@ listing:
   categories: numbered
 ---
 
+```{r}
+#| label: setup
+#| echo: false
+#| figure-alt: "Photo by Preston A Larimer"
+#| out.width: "70%"
+#| fig.align: "center"
+
+knitr::include_graphics("preview.jpg")
+```
+
 :::: {.pa4}
 ::: {.athelas .ml0 .mt0 .pl4 .black-90 .bl .bw2 .b--blue}
 ["I read closely, word by word, sentence by sentence, pondering each deceptively minor decision that the writer had made. And though it’s impossible to recall every source of inspiration and instruction, I can remember the novels and stories that seemed to me revelations: wells of beauty and pleasure that were also textbooks, private lessons in the art of fiction."]{.f5 .f4-m .f3-l .lh-copy .measure .mt0}
@@ -25,13 +36,13 @@ listing:
 
 ## Course Abstract
 
-Several short stories from different parts of the World will be read. Aspects of the stories shall be discussed in class: 
+Several short stories from different parts of the World will be **closely** read. Aspects of the stories shall be discussed in class in *cafe conversation* style, and the students will be encouraged to *mine the stories* for Design Principles and Ideas that can be applied in their own work. The aspects of the story that will be mined include:\: 
 
   • The story/sequence,\
   • The interesting events\
   • The characters, their voices, identity of the speaker/narrator\
   • Emotions, impressions, Said and unsaid\
-  • Language construction that seems unique or peculiar turns of phrase; caricature and cliché.\
+  • Language construction that seems unique; peculiar turns of phrase; caricature and cliché.\
   • Cultural, local or historical references and affinities to our own culture;\ 
     • Large Ideas and Themes that can be used as Design Principles or Hacks
 
