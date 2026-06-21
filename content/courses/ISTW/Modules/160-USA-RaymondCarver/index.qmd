@@ -68,7 +68,7 @@ Sparsh
 
 Shorter Summary:
 
-<u><https://www.dailymotion.com/video/x3nv3l5></u>
+<https://www.dailymotion.com/video/x3nv3l5>
 
 
 5. *And Then there was Light* is the autobiography of Jacques Lusseyran, the blind hero of the French Resistance during WWII.
@@ -84,7 +84,7 @@ knitr::include_graphics("images/lusseyran.jpg")
 
 ```
 
-<u><https://angelusnews.com/news/us-world/jacques-lusseyran-blind-hero-of-the-french-resistance/></u>
+<https://angelusnews.com/news/us-world/jacques-lusseyran-blind-hero-of-the-french-resistance/>
 
 > “And There Was Light” is the strange and beautiful autobiography of Jacques Lusseyran, “blind hero of the French Resistance.”
 >

@@ -47,8 +47,9 @@ knitr::include_graphics("featured.jpg")
 ## Story
 
 We will read Ventura Garcia Calderon's short short story, **The
-Lottery Ticket**.
+Lottery Ticket**. (pp. 912)
 
+{{< pdf AWorldofGreatStories_HaydnHiram.pdf >}}
 
 ## Themes
 

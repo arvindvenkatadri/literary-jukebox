@@ -43,8 +43,9 @@ Several short stories from different parts of the World will be **closely** read
   • The characters, their voices, identity of the speaker/narrator\
   • Emotions, impressions, Said and unsaid\
   • Language construction that seems unique; peculiar turns of phrase; caricature and cliché.\
-  • Cultural, local or historical references and affinities to our own culture;\ 
-    • Large Ideas and Themes that can be used as Design Principles or Hacks
+  • Cultural, local or historical references and affinities to our own culture;\
+  • [**Big Ideas and Themes**](https://pz.harvard.edu/resources/generative-topics-building-a-curriculum-around-big-ideas) that can be used as Art/Design Principles or Hacks. [See also [
+Educating for the Unknown | David Perkins](https://youtu.be/ymoq_91Qgso) and [What's Worth Learning?](https://youtu.be/SysbpbEmh1g)]
 
 The students will be required to do a piece of Creative Writing on a choice of topics to be announced after reading each story in class. The unit will also include exposure to the use of open-source technological tools such as Calibre (e-Book Library Manager), the HemingwayApp for improved writing and Browser plug-ins to foster the reading habit.
 
@@ -55,7 +56,7 @@ The students will be required to do a piece of Creative Writing on a choice of t
   • Explore individual voice and build confidence in ability to communicate via writing, presenting, speaking\
   • Experience writing in one or more modes\
   • Ability to use language for communicating about the visual and/or other abstractions\
-  • Being able to Generalize the Design Ideas and Principles mined from the Story
+  • Being able to **Generalize the Design Ideas and Principles** mined from the Story
 
 ## Learning Objectives as Studio Habits
 None.

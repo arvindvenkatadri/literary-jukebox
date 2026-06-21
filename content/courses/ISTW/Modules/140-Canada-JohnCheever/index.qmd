@@ -37,6 +37,8 @@ We will read Cheever's dystopian tech story, **The Enormous Radio**, first publi
 
 ## Additional Material
 
+This is a paper by one of the greats of Telecom, Robert Lucky, who was the head of Bellcore. This is a review paper on What Society wants from Telecom Technology. Some of the Sections are deeply philosophical, would be good to read for HCD and VCSB people. 
+
 {{< pdf "../../../../materials/pdfs/RobertLucky-Telecom-What-does-Society-Want.pdf" >}}
 
 ### Notes and References
@@ -57,14 +59,14 @@ Rockwell's "Somebody's Watching Me" (1984)
 :::
 
  
- Also listen to <u>[The Buggles - Video Killed the Radio Star](https://youtu.be/vRAn0ZM2TGM)</u> and <u>[Queen - Radio Gaga](https://youtu.be/pMYCOYjIKrE)</u>. And <u>[Men at Work - Who can it be now?](https://www.youtube.com/watch?v=TGnlBRm_PNA)</u>.
+ Also listen to [The Buggles - Video Killed the Radio Star](https://youtu.be/vRAn0ZM2TGM) and [Queen - Radio Gaga](https://youtu.be/pMYCOYjIKrE). And [Men at Work - Who can it be now?](https://www.youtube.com/watch?v=TGnlBRm_PNA).
  
 ## Writing Prompts
 
 1. On being Average, or being thought to be Average
 1. Am I using [your favourite SM app] or is it using me?
 1. On Human Dreams and Technology. Take inspiration from Robert Lucky's paper, embedded above. Look especially on the Section VI. therein on *Fulfilling Ancient Dreams*.
-1. On bugs in internet apps. Take inspiration from Vinton G. Cerf's famous Internet document in poetry form, RFC968 <u><https://datatracker.ietf.org/doc/html/rfc968></u>.
+1. On bugs in internet apps. Take inspiration from Vinton G. Cerf's famous Internet document in poetry form, RFC968 <https://datatracker.ietf.org/doc/html/rfc968>.
 
  
 

@@ -2,6 +2,7 @@
 title: <iconify-icon icon="emojione-v1:flag-for-israel"></iconify-icon> Israel - Ruth Calderon
 subtitle: "Sisters"
 date: 2024-09-29
+date-modified: today
 draft: true
 order: 280
 ---
